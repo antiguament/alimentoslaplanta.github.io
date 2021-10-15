@@ -4,7 +4,7 @@ document.write("haychaymay");
 //------------------------------------------
 
 document.getElementsByTagName("BODY")
-[0].style.backgroundColor="blue";
+[0].style.backgroundColor="none";
 
 
 

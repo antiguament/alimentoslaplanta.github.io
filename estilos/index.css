@@ -1,15 +1,27 @@
 
-body
-{
-    background-color: blue;
-    color: cornsilk;
-    height: 6000px;
+
+@font-face {
+    font-family: fuente1;
+    src: url(/fuentes/fuente1.ttf);
 }
 
-h2
+
+
+body
 {
-color: aliceblue;
+    background-color: rgba(46, 3, 102, 0.959);
+    color: cornsilk;
+    height: 8000px;
 }
+
+
+
+
+
+
+
+
+
 
 /*------------------------------------*/
 /*------icono_menu------------------*/
@@ -200,7 +212,14 @@ color: aliceblue;
 
 /*------------------------------------*/
 /*--------lista del menu----------------------------*/
+#av106
+{
+width: 560px;
+height: 600px;
 
+
+
+}
 
 #ul08
 {
@@ -212,7 +231,7 @@ color: aliceblue;
    
     border: 2px solid rgb(237, 13, 245);
     border-radius: 10px;
-    
+    background-color: white;
     list-style: none;
     display: block;
     text-align: middle;
@@ -292,8 +311,8 @@ color: aliceblue;
     height: 50px;
     border: .3px solid white;
     border-radius:10px;
-    margin-top: 3px;
-    margin-left: 2px;
+    position: relative;
+    top: -600px;
     vertical-align: 50px;
   
     *font-size: 29px;
@@ -325,15 +344,15 @@ color: aliceblue;
    {
      #ul08 li
        {
-       width: 250px;
+       width: 350px;
        height: 70px;
        border: .3px solid rgb(240, 200, 25);
        box-shadow:0 0 20px tomato;
        border-radius:10px;
        margin-top: 3px;
-       margin-left: 82px;
+       margin-left: 130px;
        vertical-align: 50px;
-       color: rgb(0, 255, 64);
+       color: rgb(2, 8, 4);
        font-size: 29px;
       
        
@@ -360,7 +379,7 @@ color: aliceblue;
 {
     .li09 a 
 {
-    color: rgb(181, 5, 251);
+    color: rgb(29, 2, 39);
     text-decoration: none;
     margin-top: 30px;
     font-family: unset;
@@ -382,17 +401,13 @@ color: aliceblue;
 
 
 
-img
-{
-    width: 1200px;
-    height: 300px;
-}
 
-#av25
+
+#av25 /*-------div encabezado uno----------------------*/
 {
     width: 1400px;
-    height: 100px;
-    background-color: darkviolet;
+    height: 800px;
+    background-color: rgba(148, 0, 211, 0.048);
     border: 3px solid white; 
     border-radius: 3px;
     text-align: center;
@@ -430,70 +445,185 @@ av38
 }
 
 /*--------------------------------*/
+/*---------------------------------*/
 
-#av141
+
+
+/*------------------------------*/
+/*-----div video principal-------------------------*/
+
+
+
+#av129
 {
-    margin-top: 300px;
-    width: 1400px;
-     height: 300px;
-       padding: 5px;
+    width: 900px;
+    height: 350px;
+    position: absolute;
+    top: 900px;
+    left: 450px;
+    border: 3px solid violet;
 }
 
 
 
+#av131
+{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+
+    top: 50px;
+    left: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#av141/*----------div del footer----------------------*/
+{
+    margin-top: 8000px;
+    width: 1400px;
+     height: 500px;
+       padding: 5px;
+}
+
+/*--------------------------------*/
+
 footer
 {
     width: 1400px;
-    height: 300px;
+    height: 500px;
     text-align: center;
     color: rgb(255, 199, 16);
     background-color: rgba(12, 73, 241, 0.082);
     box-shadow:0 0 20px violet;
     border-radius: 3px;
     border: 2px solid blue;
-    margin-top: -300px;
+    margin-top:00px;
+    
 }
 
-#av142
+/*--------------------------------*/
+/*--------------------------------*/
+
+
+#av142a  /*---imagen del footer-----*/
 {
-    margin-top: -500px;
+
+    position: absolute;
+    top: 10000px;
+    left: 12px;
+    border: 2px solid violet;
     width: 1400px;
-     height: 300px;
+    height: 500px;
+
+}
+
+
+
+#av142  /*---imagen del footer-----*/
+{
+
+  
    
-}
-
-
-#av58
-{
-width: 1400px;
-height: 100px;
-
-
-
-
+   
+    width: 1400px;
+    height: 500px;
 
 }
 
 
+/*--------------------------------*/
 
-
-#av60
+#av58     /*------imagen del encabezado--------*/
 {
 width: 1400px;
-height: 100px;
-background-color: transparent;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 800px;
 
+
+
+
+
+}
+
+
+#av77     /*------imagen2 del encabezado--------*/
+{
+width: 600px;
+height: 200px;
 position: absolute;
-left: 10%;
-top: 15%;
-transform: translate(-10%,-90%);
-color: rgb(0, 81, 255);
-font-size: 50px
+top: 70px;
+z-index: 10px;
+
+
+
+
 
 }
 
 
+
+#av78     /*------imagen2 del encabezado--------*/
+{
+width: 400px;
+height: 150px;
+position: absolute;
+top: 220px;
+left: 3px;
+
+
+
+
+
+
+}
+
+
+
+/*--------------------------------*/
+
+#av76
+{
+color: aliceblue;
+z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+#av88
+{
+
+
+color: rgb(18, 39, 41);
+position: absolute;
+left: 850px;
+top: 450px;
+font-size: 90px;
+font-family: fuente1;
+
+
+
+}
+
+
+/*--------------------------------*/
 
 #av85 /*----imagen----informativo*/
 {
@@ -502,7 +632,7 @@ font-size: 50px
     padding-left: 7px;
 }
 
-
+/*--------------------------------*/
 
 #av29
 {
@@ -515,12 +645,10 @@ height: 300px;
 }
 
 
-#av131
-{
-width: 500px;
-height: 300px;
+/*--------------------------------*/
 
 
 
 
-}
+
+/*--------------------------------*/
